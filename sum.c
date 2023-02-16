@@ -3,7 +3,7 @@
 int main(){
     int a,b;
     printf("enter two to add \n");
-    scanf("%d %d",&a,&b);
-    printf("%d +%d = %d ",a,b,a+b);
+    scanf("%d",&a,&b);
+    printf("area of circle :%d",a,b,a+b);
     return 0;
 }
