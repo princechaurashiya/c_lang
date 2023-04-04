@@ -8,8 +8,6 @@ int main(){
   scanf("%d",&n);
   if (n==0)
   n=n+1;
-
-
     for (i=n+1; i>0; i++)
     {
         count=0;
@@ -17,7 +15,7 @@ int main(){
       {
       if (i % j==0){
         count =1;
-       // break;
+        break;
       }
       }
       if(count == 0){
