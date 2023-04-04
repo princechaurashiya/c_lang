@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main (){
     int i, n;
-printf("Enter length or arry:");
+printf("Enter length of arry:");
 scanf("%d",&n);
 int a[n];
 for (int i=0;i<n;i++)
@@ -11,7 +11,7 @@ scanf("%d",& a[i]);
 }
     int count1=0,count2=0,count3=0;
     for ( i=0;i<n;i++)
-    {
+    { 
         if (a[i]/10<1)
         count1 ++;
         else if (a[i]/100<1)
