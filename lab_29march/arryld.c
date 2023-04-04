@@ -13,7 +13,7 @@ for (i=0; i<n-1; i++)
 {
     b[i] =a[i] - a[1+i] ;
 }
-printf("The difference between two consecutive elemetn are:\n");
+printf("The difference between consecutive elemetn are:\n");
 for(i=0;i < n-1; i++)
 {
     printf("%u\n",b[i]);
