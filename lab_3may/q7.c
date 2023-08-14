@@ -8,18 +8,17 @@ void main (){
     {
         scanf("%d",&arry[i]);
     }
-    int *p,max,diff;
-    p=&arry[0];
-    max=arry[  0];
+    int larg,diff=0;
     int comp=arry[0];
-     printf("Difference between consecutive element is:\n");
+     printf("Difference between consecutive element is:\n{");
     for (j=1;j<n;j++)
     {
         diff= comp - *(arry+j);
-        if (max<*(arry+j))
-        max=*(arry+j);
-        printf("%d\n",diff);
+        if (larg<diff)
+        larg=diff;
+        printf("%d,",diff);
         comp=*(arry+j);
         }
-           printf("Max element is :%d\n",max);
+        printf("}\n");
+           printf("Largest difference is :%d\n\n",larg);
 }

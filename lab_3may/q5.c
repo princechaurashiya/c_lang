@@ -1,11 +1,11 @@
 #include <stdio.h>
 void main(){
 	int len,max;
-    printf("Enter length:");
+    printf("Enter length:")
 	scanf("%d",&len);
 	int arr[len];
-    printf("Enter array element:");
-	for(int i = 0; i <len; i++){
+    printf("")
+	for(int i = 0; i < len; i++){
 		scanf("%d",&arr[i]);
 	}
 	int *ptr;

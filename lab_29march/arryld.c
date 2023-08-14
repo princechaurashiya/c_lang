@@ -24,5 +24,5 @@ for (i=0;i<n-1;i++)
     if (max_diff < b[i])
     max_diff = b[i];
 }
-printf("Largest difference between consecutive element is:%d\n",max_diff);
+printf("Largest difference between consecutive element is:");
 }

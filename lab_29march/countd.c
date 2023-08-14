@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main (){
     int i, n;
-printf("Enter length of arry:");
+printf("Enter length ofc arry:");
 scanf("%d",&n);
 int a[n];
 for (int i=0;i<n;i++)
