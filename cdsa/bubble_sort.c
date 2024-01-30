@@ -1,4 +1,4 @@
-// Bubble sort C Program 
+// Bubble sort C Progr  am 
 #include <stdio.h>
 int main ()
 {
